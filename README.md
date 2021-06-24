@@ -56,16 +56,16 @@
 <br/>
 <br/>
 
-<h3 align="center"> Connect with me:</h3>
-<p align="center">
+<h3> Connect with me:</h3>
+<p>
     <a href = "https://www.linkedin.com/in/abhishek-dinesh-2627591b3/"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
     <a href = "https://www.instagram.com/abhi_d_23/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
     <a href = "mailto: abhishekdinesh21042001@gmail.com"><img src="https://img.icons8.com/fluent/48/000000/gmail-new.png"/></a>
 
 </p>
 
-<h3 align="center">❤ Views and Followers</h3>
+<h3>❤ Views and Followers</h3>
 <a href="https://github.com/abhishekd23/github-profile-views-counter" >
-    <img src="https://komarev.com/ghpvc/?username=abhishekd23" align ="middle">
+    <img src="https://komarev.com/ghpvc/?username=abhishekd23">
 </a>
-<a href="https://github.com/abhishekd23?tab=followers"><img src="https://img.shields.io/github/followers/abhishekd23?label=Followers&style=social" alt="GitHub Badge" align ="middle"></a>
+<a href="https://github.com/abhishekd23?tab=followers"><img src="https://img.shields.io/github/followers/abhishekd23?label=Followers&style=social" alt="GitHub Badge"></a>
