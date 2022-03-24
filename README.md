@@ -6,7 +6,6 @@
 
 ## 🙋‍♂️ About Me
 
-- 🔭 I’m currently working on a **Blog Application**
 
 - 🌱 I’m currently learning **DevOps**
 
