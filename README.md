@@ -4,10 +4,14 @@
 <h3 align="center">I'm a passionate Flutter Developer and Deep Learning enthusiast</h3>
 
 
-## 🙋‍♂️ About Me
+## 🙋‍♂️ I'm interested in - 
 
 
-- 🌱 I’m currently learning **DevOps**
+- 🌱Flutter Development**
+- 🌱Machine Learning**
+- 🌱Deep Learning**
+- 🌱Full Stack Web Development**
+- 🌱Data Science**
 
 
 - ⚡ Fun fact **I'm a sports freak person and love hitting the gym often**
