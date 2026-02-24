@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Dinesh | Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --accent: #5bcdec;
+            --text: #e6edf3;
+            --muted: #8b98a5;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 32px 16px 64px;
+        }
+
+        .page {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid #21262d;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+        }
+
+        header.hero {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 20px;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .avatar {
+            width: 88px;
+            height: 88px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #5bcdec, #8b5cf6);
+            display: grid;
+            place-items: center;
+            font-size: 32px;
+            font-weight: 700;
+            color: #0d1117;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        h2 {
+            margin: 0 0 12px;
+            font-size: 18px;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+
+        p { margin: 0 0 12px; color: var(--muted); }
+
+        .tagline {
+            font-size: 15px;
+            color: var(--text);
+        }
+
+        .pill-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 12px 0 0;
+        }
+
+        .pill {
+            background: #1f6feb1a;
+            color: var(--text);
+            border: 1px solid #1f6feb50;
+            padding: 6px 10px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .split {
+            display: grid;
+            gap: 16px;
+        }
+
+        @media (min-width: 850px) {
+            .split {
+                grid-template-columns: 2fr 1fr;
+            }
+        }
+
+        .section + .section { margin-top: 16px; }
+
+        .list-item {
+            border-left: 3px solid #21262d;
+            padding-left: 14px;
+            margin-bottom: 12px;
+        }
+
+        .list-item strong { color: var(--text); }
+
+        ul {
+            margin: 8px 0;
+            padding-left: 18px;
+            color: var(--muted);
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 8px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #238636;
+            color: #fff;
+            padding: 10px 14px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .btn.secondary {
+            background: #1f6feb;
+        }
+
+        a { color: var(--accent); }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header class="card hero">
+            <div class="avatar">AD</div>
+            <div>
+                <h1>Abhishek Dinesh</h1>
+                <div class="tagline">Flutter Developer · Deep Learning enthusiast · Full Stack explorer</div>
+                <p>Building elegant mobile experiences and learning-driven systems with a focus on clean architecture, performance, and user delight.</p>
+                <div class="links">
+                    <a class="btn" href="mailto:abhishekdinesh21042001@gmail.com">Email</a>
+                    <a class="btn secondary" href="https://www.linkedin.com/in/abhishek-dinesh-2627591b3/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a class="btn secondary" href="https://github.com/abhishekd23" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+                <div class="pill-group">
+                    <span class="pill">Flutter</span>
+                    <span class="pill">Dart</span>
+                    <span class="pill">Python</span>
+                    <span class="pill">Deep Learning</span>
+                    <span class="pill">Firebase</span>
+                    <span class="pill">Full Stack</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="split">
+            <section class="card section">
+                <h2>Experience</h2>
+                <div class="list-item">
+                    <strong>Flutter Projects</strong> · Building cross-platform apps with expressive UIs and responsive layouts.
+                    <ul>
+                        <li>Implemented state management and offline-first patterns to improve reliability.</li>
+                        <li>Integrated Firebase for auth, analytics, and cloud storage workflows.</li>
+                    </ul>
+                </div>
+                <div class="list-item">
+                    <strong>Deep Learning Exploration</strong> · Experimenting with vision and NLP models using PyTorch.
+                    <ul>
+                        <li>Trained custom models and tuned hyperparameters for accuracy and efficiency.</li>
+                        <li>Packaged notebooks into reproducible pipelines for teammates.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="card section">
+                <h2>Education</h2>
+                <div class="list-item">
+                    <strong>Computer Science & Engineering</strong>
+                    <p>Core focus on data structures, algorithms, and applied machine learning.</p>
+                </div>
+                <h2>Core Skills</h2>
+                <div class="pill-group">
+                    <span class="pill">Flutter</span>
+                    <span class="pill">Dart</span>
+                    <span class="pill">Python</span>
+                    <span class="pill">PyTorch</span>
+                    <span class="pill">Firebase</span>
+                    <span class="pill">Java</span>
+                    <span class="pill">CSS</span>
+                    <span class="pill">Data Science</span>
+                </div>
+            </section>
+        </div>
+
+        <section class="card section">
+            <h2>Projects</h2>
+            <div class="list-item">
+                <strong>Mobile Apps</strong> · Crafted Flutter applications featuring adaptive design, reusable widgets, and CI-friendly codebases.
+            </div>
+            <div class="list-item">
+                <strong>Model Prototypes</strong> · Built and benchmarked deep learning prototypes for image and text data, visualizing metrics for rapid iteration.
+            </div>
+        </section>
+
+        <section class="card section">
+            <h2>Contact</h2>
+            <p>Open to opportunities and collaborations in Flutter, Machine Learning, and full stack work.</p>
+            <div class="links">
+                <a class="btn" href="mailto:abhishekdinesh21042001@gmail.com">Reach out</a>
+                <a class="btn secondary" href="https://github.com/abhishekd23/abhishekd23" target="_blank" rel="noopener noreferrer">View this site on GitHub</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
